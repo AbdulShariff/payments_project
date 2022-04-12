@@ -1,0 +1,28 @@
+{
+  "groups": [
+    {
+      "name": "",
+      "type": "com.ticketmaster.bdd.config.EndPointsInfo",
+      "sourceType": "com.ticketmaster.bdd.config.EndPointsInfo"
+    },
+    {
+      "name": "payments",
+      "type": "com.ticketmaster.bdd.config.EndPointsInfo",
+      "sourceType": "com.ticketmaster.bdd.config.TestManagerConfig",
+      "sourceMethod": "paymentServiceEndpoint()"
+    }
+  ],
+  "properties": [
+    {
+      "name": "add-customer-endpoint",
+      "type": "java.lang.String",
+      "sourceType": "com.ticketmaster.bdd.config.EndPointsInfo"
+    },
+    {
+      "name": "payments.add-customer-endpoint",
+      "type": "java.lang.String",
+      "sourceType": "com.ticketmaster.bdd.config.EndPointsInfo"
+    }
+  ],
+  "hints": []
+}

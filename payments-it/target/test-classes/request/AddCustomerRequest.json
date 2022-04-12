@@ -1,0 +1,18 @@
+{
+  "customer_id":40,
+  "customer_name":"Abdul",
+  "customer_address":{
+    "state":"Delhi",
+    "country":"India",
+    "zipcode":201002
+  },
+  "credit_card_details":{
+    "issuer":"Tim",
+    "card_number":66345,
+    "expiry":"2022",
+    "balance":6000
+  },
+  "order_details":{
+    "order_id":12451
+  }
+}
